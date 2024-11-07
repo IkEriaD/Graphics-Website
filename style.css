@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
+.blur  {
+    background: #aad9d9;
+    position: absolute;
+    left: 65rem;
+    top: 24rem;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 50%;
+    filter: blur(110px);
+    z-index: 9;
+  }
 
-
-
-.blur-background {
-    width: 300px;
-    height: 200px;
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(60px);
-    border-radius: 10px;
-    /* padding: 20px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
-    /* border: 1px solid rgba(255, 255, 255, 0.4); */
-}
 
 .container {
     background: #000235;
@@ -47,6 +46,11 @@
 ul li a {
     text-decoration: none;
     color: #ffffff;
+}
+
+ul li a:hover {
+    
+    color: #FFA500;
 }
 
 .sub-header {
@@ -81,15 +85,9 @@ ul li a {
     border-radius: 40px;
     margin-top: 1rem;
     background: #FFA500;
+    cursor: pointer;
 }
 
-/* .dii {
-    width: 10rem;
-    height: 10rem;
-    background: rgba(225, 225, 225, 0.8);
-    backdrop-filter: blur(100rem);
-    
-} */
 
 /* ...............Header Ended here ....................  */
 
@@ -133,13 +131,10 @@ ul li a {
     border-radius: 40px;
     margin-top: 1rem;
     background: #FFA500;
+    cursor: pointer;
 }
 
 /* ...........About Us Ended Here .....................  */
-
-
-.testimonials {
-}
 
 .testimonials-A h3 {
     font-family: Outfit;
@@ -339,6 +334,10 @@ input {
     color: #ffffff;
 }
 
+.nav a:hover {
+    color: #FFA500;
+}
+
 .contact img {
     width: 7rem;
     height: 7rem;
@@ -392,5 +391,517 @@ input {
 /* ......... Media Screen ..............  */
 
 @media (max-width: 1024px) {
+    .blur  {
+        left: 48rem;
+        top: 24rem;
+      }
+}
+
+
+
+@media (max-width: 912px) {
+    .blur  {
+        left: 39rem;
+        top: 24rem;
+      }
+
+      .navbar ul { 
+        margin-left: 22rem;
+    }
+
+    .box1 {
+        margin-left: 2rem;
+    }
     
+    .box1 img {
+        top: 85rem;
+        left: 3rem;
+    }
+    
+    .box2 img {
+        top: 85rem;
+        left: 21rem;
+    }
+    
+    .box3 {
+        margin-right: 3rem;
+    }
+    
+    .box3 img {
+        top: 85rem;
+        left: 39rem;
+    }
+
+      .contact img {
+        left: 40rem;
+        top: 114rem;
+        
+    }
+}
+
+
+
+@media (max-width: 820px) {
+    
+    
+    .blur  {  
+        left: 34rem;
+        top: 24rem;
+      }
+    
+    
+    .logo-img {
+        width: 6rem;
+        height: 6rem;
+        left: 5rem;  
+    }
+    
+    .navbar ul {
+        margin-left: 14rem;
+    }
+    
+    .sub-header h3 {
+        font-size: 50px;  
+    }
+    
+    .sub-header p {
+        font-size: 14px;
+    }
+    
+    
+    /* ...............Header Ended here ....................  */
+    
+
+    
+    .aboutUs img {
+        left: -20rem;
+    }
+    
+    .aboutUs h3 {
+        font-size: 50px;   
+    }
+    
+    /* ...........About Us Ended Here .....................  */
+    
+    
+
+    
+    .box1 img {
+        top: 77rem;
+        left: 2rem;
+    }
+    
+    .box2 img {
+        top: 77rem;
+        left: 18.5rem;
+    }
+    
+    .box3 img {
+        top: 77rem;
+        left: 35rem;
+    }
+    
+    /* ...........Testimonials Ends Here ........................  */
+    
+   .text {
+    margin-left: 2rem;
+   }
+    
+    .text h3 {
+        font-size: 40px;
+    }
+    
+    .text p {
+        font-size: 23px;
+    }
+
+    
+    .sitemap h3 {
+        font-size: 40px;
+    }
+    
+    .sitemap p {
+        font-size: 23px;
+    }
+    
+    
+    .contact img {
+        width: 6rem;
+        height: 6rem;
+        left: 38rem;
+        top: 107rem;
+    }
+
+    .icons {
+      margin-left: -1rem;  
+    }   
+   
+}
+
+
+@media (max-width: 768px) {
+    
+    
+    .blur  {  
+        left: 33rem;
+        top: 24rem;
+      }
+
+      .navbar ul {
+        font-size: 15px;
+      }
+    
+    
+    .logo-img {
+        width: 6rem;
+        height: 6rem;
+        left: 5rem;  
+    }
+    
+    .navbar ul {
+        margin-left: 14rem;
+    }
+    
+    .sub-header h3 {
+        font-size: 41px;  
+    }
+    
+    .sub-header p {
+        font-size: 12px;
+    }
+    
+    
+    /* ...............Header Ended here ....................  */
+    
+
+    
+    .aboutUs img {
+        left: -20rem;
+    }
+    
+    .aboutUs h3 {
+        font-size: 41px;   
+    }
+
+    .unveiling {
+        margin-left: 7rem;
+    }
+    
+    /* ...........About Us Ended Here .....................  */
+    
+    
+
+    
+    .box1 img {
+        top: 75rem;
+        left: 1rem;
+    }
+    
+    .box2 img {
+        top: 75rem;
+        left: 16.8rem;
+    }
+    
+    .box3 img {
+        top: 75rem;
+        left: 32rem;
+    }
+    
+    /* ...........Testimonials Ends Here ........................  */
+    
+   .text {
+    margin-left: 2rem;
+   }
+    
+    .text h3 {
+        font-size: 40px;
+    }
+    
+    .text p {
+        font-size: 23px;
+    }
+
+    
+    .sitemap h3 {
+        font-size: 40px;
+    }
+    
+    .sitemap p {
+        font-size: 23px;
+    }
+    
+    
+    .contact img {
+        width: 6rem;
+        height: 6rem;
+        left: 35rem;
+        top: 107rem;
+    }
+
+    .icons {
+      margin-left: -3rem;  
+    }   
+   
+}
+
+
+@media (max-width: 540px) {
+    
+    
+    .blur  {  
+        width: 10rem;
+        height: 15rem;
+        left: 23rem;
+        top: 16rem;
+      }
+
+      .navbar ul {
+        font-size: 10px;
+        gap: 1.5rem;
+      }
+    
+    
+      .logo-img {
+        width: 4rem;
+        height: 4rem;
+        
+    }
+
+    .sub-header {
+        display: grid;
+    }
+
+    .camera-img {
+        position: absolute;
+        top: 5rem;
+        left: 1rem;
+    }
+    
+    .navbar ul {
+        margin-left: 14rem;
+    }
+    
+    .sub-header h3 {
+        font-size: 41px; 
+        margin-top: 30rem;
+    }
+    
+    .sub-header p {
+        font-size: 13px;
+    }
+    
+    
+    /* ...............Header Ended here ....................  */
+    
+
+    
+    .aboutUs img {
+       position: absolute;
+        left: -15rem;
+        top: 53rem;
+    }
+    
+    .aboutUs h3 {
+        font-size: 41px;
+        margin-top: 33rem;   
+    }
+
+    .unveiling {
+        margin-left: -5rem;
+    }
+
+    .aboutUs p {
+        font-size: 13px;
+    }
+    
+    /* ...........About Us Ended Here .....................  */
+    
+    
+    .testimonials-A h3 {
+        font-size: 50px;
+    }
+    
+    .testimonials-A p {
+        font-size: 15px;
+    }
+
+    .testimonials-B {
+        display: grid;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      width: 160%;  
+      margin-left: -5rem;
+    }
+
+    .box1 p,
+    .box2 p,
+    .box3 p{
+      text-align: center; 
+     
+    }
+
+    .box1 img {
+        top: 111rem;
+        left: 10rem;
+    }
+    
+    .box2 img {
+        top: 127rem;
+        left: 10rem;
+    }
+    
+    .box3 img {
+        top: 142.5rem;
+        left: 10rem;
+    }
+    
+    /* ...........Testimonials Ends Here ........................  */
+
+    .footer1 {
+        display: grid;
+    }
+
+    .contact img {
+        width: 6rem;
+        height: 6rem;
+        left: 10rem;
+        top: 209rem;
+    }
+  
+}
+
+
+@media (max-width: 430px) {
+
+    .container {
+        width: 112%;
+    }
+    
+    
+    .blur  {
+        left: 15rem;
+        top: 16rem;
+      }
+
+      .navbar ul {
+        margin-left: 5rem;
+      }
+    
+      .logo-img {
+        margin-left: -3rem;
+        
+    }
+
+    .sub-header {
+        margin-left: -1rem;
+    }
+
+    .camera-img {
+        left: -1rem;
+    }
+     
+    
+    /* ...............Header Ended here ....................  */
+
+    .aboutUs img {
+         left: -18rem;
+         top: 53rem;
+     }
+    
+    /* ...........About Us Ended Here .....................  */
+    
+    
+    .testimonials-A h3 {
+        font-size: 40px;
+    }
+    
+    .testimonials-A p {
+        font-size: 13px;
+        margin-top: 0.2rem;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      width: 110%;  
+      margin-left: -1rem;
+    }
+
+    .box1 p,
+    .box2 p,
+    .box3 p{
+      text-align: center; 
+     
+    }
+
+    .box1 img {
+        top: 111rem;
+        left: 8rem;
+    }
+    
+    .box2 img {
+        top: 127rem;
+        left: 8rem;
+    }
+    
+    .box3 img {
+        top: 142.5rem;
+        left: 8rem;
+    }
+    
+    /* ...........Testimonials Ends Here ........................  */
+
+   .text {
+    margin-left: -1rem;
+   }
+
+    .contact img {
+        left: 8rem;
+        top: 209rem;
+    }
+  
+}
+
+
+@media (max-width: 414px) {
+
+    .container {
+        width: 117%;
+    }
+  
+}
+
+@media (max-width: 390px) {
+
+    .container {
+        width: 124%;
+    }
+  
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        width: 129%;
+    }
+  
+}
+
+@media (max-width: 360px) {
+
+    .container {
+        width: 134%;
+    }
+  
+}
+
+@media (max-width: 344px) {
+
+    .container {
+        width: 140%;
+    }
+  
 }
